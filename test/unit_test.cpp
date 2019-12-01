@@ -125,9 +125,48 @@ TEST(dict, contains_set5) {
     ASSERT_FALSE(hashTable.contain(8));
 }
 
-TEST(dict, remove) {
+TEST(dict, remove_case1) {
     // homework
     ArrayDictionary<int, int> hashTable;
 
-    ASSERT_TRUE(false); // placeholder
+    ASSERT_FALSE(hashTable.remove(10));
+}
+
+TEST(dict, remove_case2) {
+    // homework
+    ArrayDictionary<int, int> hashTable;
+    hashTable.add(1,106);
+    hashTable.add(2,207);
+    hashTable.add(3,308);
+    ASSERT_TRUE(hashTable.remove(3));
+}
+
+TEST(dict, remove_case3) {
+    // homework
+    ArrayDictionary<int, int> hashTable;
+    hashTable.add(1,106);
+    hashTable.add(2,207);
+    hashTable.add(3,308);
+    ASSERT_FALSE(hashTable.remove(4));
+}
+
+TEST(dict, remove_case4) {
+    // homework
+    ArrayDictionary<int, int> hashTable;
+    hashTable.add(1,106);
+    hashTable.add(2,207);
+    hashTable.add(2,210); // Collision
+    hashTable.add(3,308);
+
+    ASSERT_TRUE(hashTable.remove(2));
+}
+
+TEST(dict, remove_case5) {
+    // homework
+    ArrayDictionary<int, int> hashTable;
+    hashTable.add(1,106);
+    hashTable.add(2,207);
+    hashTable.add(2,210); // Collision
+    hashTable.add(3,308);
+    ASSERT_FALSE(hashTable.remove(4));
 }

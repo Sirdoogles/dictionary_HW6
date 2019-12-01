@@ -125,12 +125,6 @@ public:
     bool contain(KeyType const &key) override {
         // homework
 
-        // If dict. is empty.
-        if(entries[0] == nullptr)
-        {
-            return false;
-        }
-
         for(int i = 0; i < capacity; i++)
         {
             Entry<KeyType, ValueType> *ptr = entries[i];
@@ -160,8 +154,25 @@ public:
         // not implemented
     }
 
-    bool remove(KeyType &key) override {
+    bool remove(KeyType const &key) override {
         // homework
-        return false;
+        int removeCount = 0;
+        for(int i = 0; i < capacity; i++)
+        {
+            Entry<KeyType, ValueType> *ptr = entries[i];
+
+            if(ptr == nullptr)
+            {
+                continue;
+            }
+
+            if(ptr->key == key)
+            {
+                deleteEntry(entries[i - 1]); //TODO, Verify and check.
+                entries[i] == nullptr;
+                removeCount++;
+            }
+        }
+        return (removeCount > 0);
     }
 };

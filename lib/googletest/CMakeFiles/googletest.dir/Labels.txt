@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/CMakeFiles/googletest
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/CMakeFiles/googletest.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/CMakeFiles/googletest-complete.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/justin/UWB_CSS342_2019_Fall/class8/homework/dictionary/lib/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule

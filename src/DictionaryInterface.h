@@ -9,7 +9,7 @@ public:
 
     virtual bool add(KeyType const &key, ValueType const &value) = 0;
 
-    virtual bool remove(KeyType &key) = 0;
+    virtual bool remove(KeyType const &key) = 0;
 
     virtual bool get(KeyType const &key, ValueType &value) = 0;
 
