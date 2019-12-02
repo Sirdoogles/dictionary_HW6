@@ -168,8 +168,9 @@ public:
 
             if(ptr->key == key)
             {
-                deleteEntry(entries[i - 1]); //TODO, Verify and check.
-                entries[i] == nullptr;
+                deleteEntry(entries[i]);
+                ptr = nullptr;
+                entries[i] = ptr;
                 removeCount++;
             }
         }
